@@ -3,6 +3,7 @@ compatibility_date = "2023-12-01"
 
 [vars]
 DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNWM3MjVkOTAtZDY2Zi00Y2E3LTg5MzUtNDM3NzExNzhkZWZmIiwidGVuYW50X2lkIjoiM2M2MTFlMzg3YmYyNWY4MjFkMGQ5MWQwMmJhODVlNzkyNmMwYTMzZDAwNTM5MGRmYmM5NDFkYjgxOGUzY2QzOCIsImludGVybmFsX3NlY3JldCI6IjkzOGZmNzMxLTgwN2ItNDZmOS04ZDNjLWFkYmFmMWEwMmJmOCJ9.mnAFftrRIjyF3_gUFDWd59wMocE8PmBmdfgmyjEXlkg"
+JWT_SECRET= "vasu_medium"
 # MY_VAR = "my-variable"
 
 # [[kv_namespaces]]
