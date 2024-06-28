@@ -35,15 +35,10 @@ blogRouter.get("/bulk", async (c) => {
   try {
     console.log("Aa");
     const bulk = await prisma.post.findMany();
-    return c.json({
-      bulk,
-      yo: "aa",
-    });
+    return c.json({ bulk, yo: "aa" });
   } catch (e) {
     c.status(411);
-    return c.json({
-      message: e,
-    });
+    return c.json({ message: e });
   }
 });
 
